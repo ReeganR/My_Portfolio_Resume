@@ -317,6 +317,10 @@ $breakpoint-desktops: 1200px;
 /* Extra small devices (phones, 480px and down) */
 @media only screen and (max-width: $breakpoint-small) {
   
+}
+
+/* Small devices (tablets and large phones, 600px and up) */
+@media only screen and (max-width: $breakpoint-phones) {
   h1 {
     font-size: 3rem !important;
   }
@@ -329,13 +333,6 @@ $breakpoint-desktops: 1200px;
       margin: 1em;
     }
   }
-  .work-experience{
-    padding-top: 60px;
-  }
-}
-
-/* Small devices (tablets and large phones, 600px and up) */
-@media only screen and (min-width: $breakpoint-phones) {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
