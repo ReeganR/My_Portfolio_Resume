@@ -340,7 +340,8 @@ footer {
 
 /* Using SCSS variables to store breakpoints */
 /* Extra small devices (phones, 480px and down) */
-@media only screen and (max-width: 480px) {
+/* Small devices (tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
   h1 {
     font-size: 3rem !important;
   }
@@ -353,12 +354,8 @@ footer {
     padding: 2em;
     margin: 1em;
   }
-  .work-experience {
-    padding-top: 60px;
-  }
 }
 
-/* Small devices (tablets and large phones, 600px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (laptops and lg desktops, 1200px and up) */
