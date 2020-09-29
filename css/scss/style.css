@@ -353,6 +353,9 @@ footer {
     padding: 2em;
     margin: 1em;
   }
+  .work-experience {
+    padding-top: 60px;
+  }
 }
 
 /* Small devices (tablets and large phones, 600px and up) */
