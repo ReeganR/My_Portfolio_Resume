@@ -5,6 +5,9 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 body::-webkit-scrollbar {
   width: 12px; /* width of the entire scrollbar */
@@ -313,20 +316,7 @@ $breakpoint-laptops: 992px;
 $breakpoint-desktops: 1200px;
 /* Extra small devices (phones, 480px and down) */
 @media only screen and (max-width: $breakpoint-small) {
-  .mobile_right_content .img {
-    text-align: center;
-  }
-  .mobile_right_content {
-    padding: 100px 0;
-  }
-  .mobile_right_content div {
-    text-align: center;
-  }
-  .img-fluid.mobile_potrait {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-  }
+  
   h1 {
     font-size: 3rem !important;
   }
@@ -347,25 +337,12 @@ $breakpoint-desktops: 1200px;
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: $breakpoint-tablets) {
-  .mobile_right_content {
-    padding: 60px 0;
-  }
-  .img-fluid.mobile_potrait {
-    width: 90%;
-  }
-  .mobile_right_content div {
-    text-align: left;
-  }
+ 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: $breakpoint-laptops) {
-  .mobile_right_content {
-    padding: 200px 0;
-  }
-  .experience {
-    padding: 0 10px;
-  }
+ 
 }
 
 /* Extra large devices (laptops and lg desktops, 1200px and up) */
