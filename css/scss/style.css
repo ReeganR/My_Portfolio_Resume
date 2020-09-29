@@ -251,7 +251,7 @@ ul {
 .sec-testimonials {
   background-color: #46bfaf;
   position: relative;
-  z-index: 7;
+  z-index: 6;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
           clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
   margin-bottom: -10vw;
@@ -262,7 +262,7 @@ ul {
   background-color: #357887;
   color: #fff;
   position: relative;
-  z-index: 6;
+  z-index: 7;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
           clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
   margin-bottom: -10vw;
