@@ -364,8 +364,18 @@ footer {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.navbar .container {
+    width: 100%;
+}
+	}
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (Large laptops and lg desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.navbar .container {
+    width: 1170px;
+}
+	}
 /* Center the loader */
 #loader {
   width: 200px;
