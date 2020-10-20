@@ -276,12 +276,12 @@ ul {
 }
 
 /* Project Table */
-.projects-table {
-  background-color: #cfe7cc;
+.col-padding ul li{
+  margin-bottom: 10px;
 }
-
-.projects-table .table-striped > tbody > tr:nth-of-type(2n + 1) {
-  background-color: #f9f9f92b !important;
+.projects-table{
+  background-color: #26204D;
+  color: white;
 }
 
 /* Experiencee */
@@ -361,6 +361,7 @@ footer {
     padding: 2em;
     margin: 1em;
   }
+ 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
