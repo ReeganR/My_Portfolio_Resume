@@ -279,6 +279,9 @@ ul {
 .col-padding ul li{
   margin-bottom: 10px;
 }
+.col-padding ul li a{
+ color: mediumturquoise;
+}
 .projects-table{
   background-color: #26204D;
   color: white;
