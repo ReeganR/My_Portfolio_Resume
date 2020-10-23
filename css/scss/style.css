@@ -117,7 +117,9 @@ ul {
 .navbar-default {
   background: #fff;
 }
-
+.navbar-default .navbar-toggle:focus{
+   background-color: transparent;
+}
 .navbar .fa-external-link {
   vertical-align: top;
 }
